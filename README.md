@@ -67,6 +67,8 @@ _installation for ubuntu_:
 
 1. To install tmux type:
    ```sudo apt install tmux```
+2. Set config
+   ```cp ./linux/confs/zsh/tmux.conf ~/.tmux.conf```
 
 ## Scripts
 
