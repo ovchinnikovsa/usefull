@@ -53,7 +53,7 @@ _installation for ubuntu_:
 4. Install p10k theme
    ```git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k```
 5. Set config
-   ```cp ./linux/confs/zsh/.zshrc ~```
+   ```cp ./linux/confs/zsh/zshrc ~/.zshrc```
 6. *Update changes:
    ```source ~/.zshrc```
 7. *Use theme configurator
