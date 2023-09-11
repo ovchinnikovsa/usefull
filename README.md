@@ -4,13 +4,15 @@ _This repo contains config files and installation guides for few programs and so
 
 # Table of contents:
 
-- [Confs](#installations--configs)
+- [Useful files](#useful-files)
+- [Table of contents:](#table-of-contents)
+  - [Installations \& Configs](#installations--configs)
     - [nvim](#nvim)
-    - [zsh](#zsh--oh-my-zsh)
+    - [zsh \& Oh-My-Zsh](#zsh--oh-my-zsh)
     - [tmux](#tmux)
-- [Scripts](#scripts)
-    - [Ubuntu post install](#nice-try-to-create-post-installation-script-for-ubuntu-)
-    - [Wireguard set new conf](#adding-conf-file-for-new-user-to-wire-guard-server)
+  - [Scripts](#scripts)
+    - [Nice try to create post installation script for ubuntu :/](#nice-try-to-create-post-installation-script-for-ubuntu-)
+    - [Adding conf file for new user to wire guard server](#adding-conf-file-for-new-user-to-wire-guard-server)
 
 ```
 .
@@ -39,7 +41,7 @@ _All cp commands runs from this repo root path!_
 _installation for ubuntu_:
 
 1. To install nvim type:
-   ```sudo apt install nvim```
+   ```sudo apt install neovim```
 2. After that set config for current user:
    ```cp -r ./linux/confs/nvim ~/.config```
 
@@ -52,9 +54,9 @@ _installation for ubuntu_:
 2. Oh-My-Zsh pre install:
    ```sudo apt install git-core curl fonts-powerline```
 3. To install Oh-My-Zsh
-   ```sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh}"```
+   ```sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
 4. Install p10k theme
-   ```git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k}```
+   ```git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k```
 5. Set config
    ```cp ./linux/confs/zsh/zshrc ~/.zshrc```
 6. *Update changes:
