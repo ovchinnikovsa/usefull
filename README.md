@@ -34,6 +34,10 @@ _This repo contains config files and installation guides for few programs and so
 
 ## Installations & Configs
 
+Before install app and libs run
+
+```apt-get update && apt-get upgrade```
+
 _All cp commands runs from this repo root path!_
 
 ### nvim
