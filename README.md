@@ -34,6 +34,8 @@ _This repo contains config files and installation guides for few programs and so
 
 ## Installations & Configs
 
+_In this manual described installation for ubuntu with apt as package manager. Use package manager you want to use instead o apt._
+
 Before install app and libs run
 
 ```apt-get update && apt-get upgrade```
